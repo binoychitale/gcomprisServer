@@ -3,6 +3,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install samba
+sudo apt-get install gcompris
 mkdir ${HOME}/Desktop/gcserverconfig
 #back up original samba config file
 mkdir ${HOME}/gcbackups/
