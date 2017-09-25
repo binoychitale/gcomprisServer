@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install samba
+mkdir ${HOME}/Desktop/gcserverconfig
+#back up original samba config file
+mkdir ${HOME}/gcbackups/
+sudo cp /etc/samba/smb.conf ${HOME}/gcbackups/
+sudo echo "[gcserverconfig]
+path = ${HOME}/gcserverconfig
+browseable = yes
+read only = no
+guest ok = yes" >> /etc/samba/smb.conf
+sudo service smbd restart
