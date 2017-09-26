@@ -6,13 +6,13 @@ The setup will be in two parts :
 2) Client Setup
 
 # 1) Server Setup
-  In order to set up a samba server, download the serversetup.sh file and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/\<user\>/Downloads folder.) :-
+  In order to set up a samba server, download the project and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/\<user\>/Downloads folder.) :-
 ###  sh serversetup.sh
 
 # 2) Client setup
-  In order to setup the client machine, download the serversetup.sh file and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/\<user\>/Downloads folder.) :-
+  In order to setup the client machine, download the project and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/\<user\>/Downloads folder.) :-
 ###  sh clientsetup.sh  \<ip-address-of-server\>
-  [You can find the ip address of the server by going to the terminal and typing ""ifconfig". An string of the form 192.168.x.x is what you're looking for]
+  [You can find the ip address of the server by going to the terminal and typing "ifconfig". A string of the form 192.168.x.x is what you're looking for]
 
 # Running GCompris
   In order to run Gcompris on the client machine, type the command :
