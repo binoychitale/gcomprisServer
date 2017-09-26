@@ -10,8 +10,8 @@ mkdir ${HOME}/gcbackups/
 sudo chmod -R 777 /etc/samba/smb.conf
 sudo cp /etc/samba/smb.conf ${HOME}/gcbackups/
 sudo echo "[gcserverconfig]
-path = ${HOME}/gcserverconfig
-browseable = yes
-read only = no
-guest ok = yes" >> /etc/samba/smb.conf
+        path = ${HOME}/Desktop/gcserverconfig/
+        browseable = yes
+        read only = no
+        guest ok = yes" >> /etc/samba/smb.conf
 sudo service smbd restart
