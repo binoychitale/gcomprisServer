@@ -6,7 +6,7 @@ The setup will be in two parts :
 2) Client Setup
 
 # 1) Server Setup
-  In order to set up a samba server, download the serversetup.sh file and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/<user>/Downloads folder.) :-
+  In order to set up a samba server, download the serversetup.sh file and run this command in the download directory(If you are downloading the file from a browser, it will likely be in the /home/\<user\>/Downloads folder.) :-
 ###  sh serversetup.sh
 
 # 2) Client setup
